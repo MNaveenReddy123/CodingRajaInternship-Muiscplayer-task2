@@ -3,6 +3,7 @@ Musico
 Musico is a music player created as part of my web development internship at Coding Raja Technologies. This application allows users to play, pause, and manage their music playlists directly from the browser.
 
 Features:-
+
 Play Music: Users can play their favorite music tracks.
 
 Playlist Management: Displays a playlist of all available music tracks, allowing users to select and play any track.
