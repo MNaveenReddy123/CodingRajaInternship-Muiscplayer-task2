@@ -26,32 +26,127 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(1800deg, black, white);
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 .player {
     width: 70%;
+    /* display: flex;
+    
+    justify-content: center; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     min-height: 100vh;
-    background: linear-gradient(45deg, rgb(218, 15, 18), rgb(203, 203, 216));
+    /* background: linear-gradient(45deg, rgb(218, 15, 18), rgb(203, 203, 216)); */
 }
 
 .wrapper{
-    width: 450px;
+    width: 650px;
+    background: wheat;
+    
     padding: 25px 30px;
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    top:40px;
     border-radius: 15px;
     background: var(--white);
     box-shadow: 0px 6px 15px var(--lightbshadow);
 }
 
+  
+  .playlist-block {
+    /* width: 25%; */
+    position: absolute;
+    background: wheat;
+
+    right: 0;
+    top:40px;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 2px solid #ddd;
+    overflow-y: auto;
+    border-radius: 15px;
+   
+  
+    border: none;
+  }
+  
+  .playlist-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .playlist li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .playlist li:hover {
+    background-color: #eee;
+  }
+  
+  .playlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .playlist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .playlist-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+  }
+  
+  .details {
+    flex-grow: 1;
+  }
+  
+  .music-name {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .music-artist {
+    margin: 0;
+    color: #666;
+  }
+  
+
 .wrapper i{
     cursor: pointer;
 }
-
+.playlist-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .song-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
 .main {
     display: flex;
     align-items: center;

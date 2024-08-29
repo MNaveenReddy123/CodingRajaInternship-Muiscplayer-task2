@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
+    <title>Musico</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -14,7 +14,7 @@
     <div class="player">
     <div class="wrapper">
         <div class="main">
-            <p id="logo"><i class="fa fa-music"></i>Music</p>
+            <p id="logo"><i class="fa fa-music"></i>Musico</p>
         </div>
 
         <div class="top-bar">
@@ -57,6 +57,7 @@
             </div>
             <i id="next" class="material-icons">skip_next</i>
             <i id="more-music" class="material-icons">queue_music</i>
+           
         </div>
 
         <div id="wave">
@@ -70,8 +71,8 @@
             <span class="stroke"></span>
             <span class="stroke"></span>
         </div>
-
         <div class="music-list">
+    
             <div class="header">
                 <div class="row">
                     <i class= "list material-icons">queue_music</i>
@@ -81,7 +82,7 @@
             </div>
             <ul>
                 <!-- here li list are coming from js -->
-
+        
                 <!-- <li>
                     <div class="row">
                         <span>Despacito</span>
@@ -91,8 +92,20 @@
                 </li> -->
             </ul>
         </div>
+
+        
     </div>
+    <!-- Playlist Block -->
+  <div class="playlist-block">
+    <div class="playlist-header">
+      <h3>Playlist</h3>
+    </div>
+    <ul class="playlist">
+      <!-- Playlist items will be dynamically inserted here -->
+    </ul>
+  </div>
 </div>
+
 
     <script src="music-list.js"></script>
     <script src="script.js"></script>
